@@ -172,10 +172,10 @@
 
         MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans              &kp LC(V)  &trans              &trans               &trans    &trans
-&trans  &trans  &trans  &trans  &trans              &kp LC(C)  &mkp MB1            &mkp MB2             &mkp MB3  &trans
-&trans  &trans  &trans  &trans  &trans              &kp LC(X)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans              &trans               &trans    &trans
+&trans  &trans  &trans  &trans  &trans              &kp LC(V)  &trans              &trans               &trans     &trans
+&trans  &trans  &trans  &trans  &trans              &kp LC(C)  &mkp LCLK           &mkp MCLK            &mkp RCLK  &trans
+&trans  &trans  &trans  &trans  &trans              &kp LC(X)  &kp RA(LEFT_ARROW)  &kp RA(RIGHT_ARROW)  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans     &trans              &trans               &trans     &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
